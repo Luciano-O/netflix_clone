@@ -1,0 +1,22 @@
+.main {
+  background-color: black;
+  width: 28rem;
+  height: 30rem;
+  margin: 5rem auto;
+  display: flex;
+  opacity: 0.85;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 0.3rem;
+}
+
+.title {
+  color: white;
+  position: relative;
+  left: 3.4rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}

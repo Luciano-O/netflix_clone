@@ -1,0 +1,22 @@
+.input {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding-left: 1rem;
+  background-color: #333333;
+  margin: 0.5rem auto;
+}
+
+.input::placeholder {
+  color: #8C8C8C;
+}
+
+.input:focus {
+  outline: none;
+  caret-color: white;
+}
+
+.input:focus::placeholder {
+  color: transparent;
+}
